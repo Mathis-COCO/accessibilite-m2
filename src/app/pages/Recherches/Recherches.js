@@ -1,7 +1,8 @@
 import React from 'react';
 import './Recherches.scss';
 
-export default function Recherches() {
+
+const Recherches = () => {
   return (
     <main>
       <section className='page-intro'>
@@ -42,3 +43,4 @@ export default function Recherches() {
   );
 }
 
+export default Recherches;
